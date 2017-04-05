@@ -1,0 +1,114 @@
+.anim {
+    .animation_head-wrapp {
+        h2 {
+            animation: mainAnim 1s;
+            animation-fill-mode: forwards;
+        }
+        .animation-head {
+            animation: mainAnim 1s;
+            animation-fill-mode: forwards;
+            animation-delay: .2s;
+        }
+    }
+    .animation_head-desc {
+        animation: mainAnim 1s;
+        animation-fill-mode: forwards;
+        animation-delay: .4s;
+    }
+    .animation_desc {
+        animation: mainAnim 1s;
+        animation-fill-mode: forwards;
+        animation-delay: .6s;
+    }
+    .animation_link {
+        animation: mainAnim 1s;
+        animation-fill-mode: forwards;
+        animation-delay: .8s;
+    }
+}
+
+//Leave anim
+.leaveAnim {
+    .animation_head-wrapp {
+        h2 {
+            opacity: 1 !important;
+            animation: leaveAnim .5s;
+        }
+        .animation-head {
+            opacity: 1 !important;
+            animation: leaveAnim .5s;
+            animation-delay: .2s;
+        }
+    }
+    .animation_head-desc {
+        opacity: 1 !important;
+        animation: leaveAnim .5s;
+        animation-delay: .4s;
+    }
+    .animation_desc {
+        opacity: 1 !important;
+        animation: leaveAnim .5s;
+        animation-delay: .6s;
+    }
+    .animation_link {
+        opacity: 1 !important;
+        animation: leaveAnim .5s;
+        animation-delay: .8s;
+    }
+}
+
+.animation {
+    text-align: center;
+    height: 100%;
+    background-image: url(../img/anim-bg.png);
+    //    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    .animation-contant {
+        display: inline-block;
+        .animation_head-wrapp {
+            h2 {
+                opacity: 0;
+                font-size: 30px;
+                text-transform: uppercase;
+                font-weight: bold;
+                margin-bottom: 15px;
+                span {
+                    color: #67d5b5;
+                    font-weight: normal;
+                }
+            }
+            p.animation-head {
+                opacity: 0;
+                font-size: 16px;
+                color: #67d5b5;
+                text-align: left;
+                margin-bottom: 40px;
+                padding-left: 75px;
+            }
+        }
+        p.animation_head-desc {
+            opacity: 0;
+            font-size: 18px;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        p.animation_desc {
+            opacity: 0;
+            text-align: left;
+            font-size: 16px;
+            color: #7B7B7B;
+            width: 500px;
+            margin-bottom: 40px;
+        }
+        a {
+            p.animation_link {
+                opacity: 0;
+                font-size: 15px;
+                color: #ef5285;
+                float: right;
+            }
+        }
+    }
+}

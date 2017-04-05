@@ -1,0 +1,85 @@
+.wrapp {
+    position: relative;
+    .nextMenu {
+        animation: visibleMenu 1s;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+        background-color: #fff;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #000;
+        .top-menu_logo {
+            display: none;
+        }
+        p.menu-name {
+            font-size: 24px;
+            font-weight: bold;
+            float: left;
+            visibility: visible !important;
+            transition-delay: 2s;
+            span {
+                color: #DC2E65;
+            }
+        }
+        nav.nav {
+            .navElement {
+         
+                a {
+                    color: #000 !important;
+                }
+            }
+            
+        }
+    }
+}
+
+.top-menu {
+    visibility: visible;
+    padding-top: 25px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    .top-menu_logo {
+        height: 80px;
+        background-image: url('../img/logo.png');
+        background-repeat: no-repeat;
+    }
+    p.menu-name {
+        visibility: hidden;
+    }
+    .top-menu_nav {
+        nav.nav {
+            text-align: right;
+            display: flex;
+            justify-content: flex-end;
+            .navElement {
+                a {
+                    color: #fff;
+                    text-transform: uppercase;
+                    margin-right: 25px;
+                    font-size: 12px;
+                }
+                a:last-child {
+                    margin-right: 0;
+                }
+                .navDecor {
+                    display: block;
+                    height: 5px;
+                    background-color: #FF5188;
+                    margin-right: 20px;
+                    margin-top: 10px;
+                    opacity: 0;
+                    transition: all .5s;
+                }
+            }
+            .navElement:hover {
+                .navDecor {
+                    opacity: 1;
+                    transition: all .5s;
+                }
+            }
+        }
+    }
+}

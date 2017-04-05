@@ -1,0 +1,68 @@
+@import './other/_top-menu.scss';
+@import './other/_head.scss';
+@import './other/_why.scss';
+@import './other/_animation.scss';
+@import './other/_companies.scss';
+@import './other/_sabscribe.scss';
+@import './other/_started.scss';
+@import './other/_footer.scss';
+//anim
+@import './animation/_anim.scss';
+//media
+@import './media/_media1460.scss';
+@import './media/_media1200.scss';
+@import './media/_media1000.scss';
+@import './media/_media990.scss';
+@import './media/_media767.scss';
+ 
+
+
+
+body, p, a, h1, h2, h3, h4, h5 {
+    padding: 0;
+    margin: 0;
+}
+
+
+//buttons
+.button {
+    transition: all .5s;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: #DC2E65 !important;
+//    transform: scale(1.1);
+    transition: all .5s;
+}
+
+//links
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+a:focus {
+    text-decoration: none;
+}
+
+
+//Elements
+.line { 
+    opacity: 0;
+    height: 5px;
+    width: 100px;
+    background-color: #000;
+    margin: 0 auto;
+}
+
+//links
+.link-icon {
+    display: inline-block;
+    background-image: url(../img/link.png);
+    height: 13px;
+    width: 6px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}

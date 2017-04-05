@@ -1,0 +1,128 @@
+.anim {
+    .companies_head {
+        animation: mainAnim 1s;
+        animation-fill-mode: forwards;
+    }
+    #2ndPar {
+        animation: mainAnim 2s;
+        animation-fill-mode: forwards;
+        animation-delay: .5s;
+    }
+    .companies_logo {
+        animation: mainAnim 1s;
+        animation-fill-mode: forwards;
+        animation-delay: .2s;
+    }
+}
+
+//Leave anim
+.leaveAnim {
+    .companies_head {
+        opacity: 1 !important;
+        animation: leaveAnim .5s;
+    }
+    #2ndPar {
+        opacity: 1 !important;
+        animation: leaveAnim .5s;
+        animation-delay: .5s;
+    }
+    .companies_logo {
+        opacity: 1 !important;
+        animation: leaveAnim .5s;
+        animation-delay: .2s;
+    }
+}
+
+.companies {
+    padding-top: 130px;
+    height: 100%;
+    background-color: #F8F7FC;
+    p.companies_head {
+        opacity: 0;
+        text-align: center;
+        font-size: 30px;
+        span {
+            color: #67d5b5;
+        }
+    }
+    .line {
+        margin-top: 60px;
+        margin-bottom: 90px;
+    }
+    .companies_logo {
+        opacity: 0;
+        margin-bottom: 60px;
+        display: flex;
+        justify-content: space-between;
+        .comp_logo {
+            height: 45px;
+            width: 45px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+        //logos
+        #apple {
+            background-image: url(../img/apple.png);
+        }
+        #facebook {
+            background-image: url(../img/facebook.png);
+        }
+        #stripe {
+            background-image: url(../img/stripe.png);
+            width: 90px;
+        }
+        #google {
+            background-image: url(../img/google.png);
+            width: 120px;
+        }
+        #box {
+            background-image: url(../img/box.png);
+        }
+        #sega {
+            background-image: url(../img/sega.png);
+            width: 125px;
+        }
+        #etsy {
+            background-image: url(../img/etsy.png);
+            width: 90px;
+        }
+        #foursquare {
+            background-image: url(../img/foursquare.png);
+            width: 165px;
+        }
+        #sound {
+            background-image: url(../img/sound.png);
+            width: 90px;
+        }
+        //2nd row
+        #fitbit {
+            background-image: url(../img/fitbit.png);
+            width: 125px;
+        }
+        #groupon {
+            background-image: url(../img/groupon.png);
+            width: 145px;
+        }
+        #ibm {
+            background-image: url(../img/ibm.png);
+            width: 80px;
+        }
+        #booking {
+            background-image: url(../img/booking.png);
+            width: 155px;
+        }
+        #buzz {
+            background-image: url(../img/buzz.png);
+            width: 145px;
+        }
+        #paypal {
+            background-image: url(../img/paypal.png);
+            width: 125px;
+        }
+        #next {
+            background-image: url(../img/next.png);
+            width: 115px;
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.started {
+    height: 100%;
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    .started-wrapper-top {
+        flex: 1 0 auto;
+        .started-logo {
+            height: 80px;
+            background-image: url('../img/logo.png');
+            background-repeat: no-repeat;
+        }
+        .started-head {
+            p.started-head_par {
+                font-size: 30px;
+                span {
+                    font-weight: bold;
+                }
+            }
+        }
+        .started-desc {
+            p {
+                font-size: 15px;
+                color: #A4A4A4;
+                text-align: left;
+                padding-top: 40px;
+            }
+        }
+        .started-dowload {
+            padding: 15px;
+            position: relative;
+            .why-download_contant {
+                position: absolute;
+                top: -350px;
+                background-color: #fff;
+                padding: 10px;
+                .why-download_contant-wrapper {
+                    padding: 55px 80px;
+                    padding-bottom: 1px;
+                    background-color: #1A1F22;
+                    p.why-download_firstPar {
+                        color: #e4e4e4;
+                        font-size: 16px;
+                        span {
+                            font-weight: bold;
+                            color: #fff;
+                        }
+                    }
+                    p.why-download_update {
+                        font-size: 12px;
+                        color: #3B4042;
+                        padding: 10px 0;
+                    }
+                    .why-dowload_button {
+                        padding: 30px 60px;
+                        background-color: #FF5188;
+                        margin-bottom: 60px;
+                        p {
+                            color: #fff;
+                            font-size: 18px;
+                            display: inline-block;
+                            margin-right: 10px;
+                        }
+                        .windows-button {
+                            display: inline-block;
+                            height: 25px;
+                            width: 25px;
+                            background-repeat: no-repeat;
+                            background-image: url(../img/windows.png);
+                            float: right;
+                        }
+                        .mac-button {
+                            display: inline-block;
+                            height: 25px;
+                            width: 25px;
+                            background-repeat: no-repeat;
+                            background-image: url(../img/mac.png);
+                            float: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

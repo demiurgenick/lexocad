@@ -1,0 +1,19 @@
+@media screen and (max-width: 1000px) {
+    // download
+    .why-dowload_button {
+        text-align: center !important;
+        .mac-button {
+            float: none !important;
+        }
+        .windows-button {
+            float: none !important;
+        }
+    }
+    
+    //started 
+    .started-dowload {
+        .why-download_contant {
+            top: -360px !important;
+        }
+    }
+} 

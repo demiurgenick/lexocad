@@ -1,0 +1,47 @@
+@media screen and (max-width: 768px) {
+    .why-contant {
+        padding-top: 300px !important;
+    }
+    .why-download_contant-wrapper {
+        //        width: 100% !important;
+        padding: 30px !important;
+        display: flex;
+        .wrapp {
+            margin-right: 20px;
+            .why-dowload_button {
+                margin-bottom: 0 !important;
+            }
+        }
+        .wrapp:last-child {
+            margin-right: 0 !important;
+        }
+    }
+    //started 
+    .started-head {
+        text-align: center;
+    }
+    .started-logo {
+        background-size: contain;
+    }
+    .started-head_par {
+        //        text-align: center !important;
+        display: inline-block;
+    }
+    .started-desc {
+        p {
+            text-align: center !important;
+            padding-top: 0 !important;
+        }
+    }
+    
+    .started {
+        .why-download_contant {
+            top: 50px !important;
+        }
+    }
+    
+    //foot 
+    .foot {
+        padding-bottom: 0 !important;
+    }
+}

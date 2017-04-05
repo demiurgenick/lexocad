@@ -1,0 +1,192 @@
+.anim {
+    p.why-top {
+        animation: mainAnim 1s;
+        animation-fill-mode: forwards;
+    }
+    .line {
+        animation: mainAnim 1s;
+        animation-fill-mode: forwards;
+    }
+    .why-text {
+        h3 {
+            animation: mainAnim 1s;
+            animation-fill-mode: forwards;
+        }
+        p {
+            animation: mainAnim 1s;
+            animation-fill-mode: forwards;
+        }
+        .why-fitst_par {
+            animation-delay: .2s;
+        }
+        .why-2nd_par {
+            animation-delay: .4s;
+        }
+        .why-3rd_par {
+            animation-delay: .6s;
+        }
+        a {
+            p {
+                animation-delay: .8s;
+            }
+        }
+    }
+}
+
+//Leave anim
+.leaveAnim {
+    p.why-top {
+        opacity: 1 !important;
+        animation: leaveAnim .5s;
+    }
+    .line {
+        opacity: 1 !important;
+        animation: leaveAnim .5s;
+    }
+    .why-text {
+        h3 {
+            opacity: 1 !important;
+            animation: leaveAnim .5s;
+        }
+        p {
+            opacity: 1 !important;
+            animation: leaveAnim .5s;
+        }
+        .why-fitst_par {
+            animation-delay: .2s;
+        }
+        .why-2nd_par {
+            animation-delay: .4s;
+        }
+        .why-3rd_par {
+            animation-delay: .6s;
+        }
+        a {
+            p {
+                animation-delay: .8s;
+            }
+        }
+    }
+}
+
+.why {
+    height: 100%;
+    padding-top: 145px;
+    position: relative;
+    z-index: 50;
+    p.why-top {
+        font-size: 30px;
+        opacity: 0;
+        span {
+            color: #67d5b5;
+        }
+    }
+    .why-dowload {
+        padding: 15px;
+        position: relative;
+        .why-download_contant {
+            position: absolute;
+            top: -350px;
+            background-color: #fff;
+            padding: 10px;
+            .why-download_contant-wrapper {
+                padding: 55px 80px;
+                padding-bottom: 1px;
+                background-color: #1A1F22;
+                //                background-color: #fff;
+                p.why-download_firstPar {
+                    color: #e4e4e4;
+                    font-size: 16px;
+                    span {
+                        font-weight: bold;
+                        color: #fff;
+                    }
+                }
+                p.why-download_update {
+                    font-size: 12px;
+                    color: #3B4042;
+                    padding: 10px 0;
+                }
+                .why-dowload_button {
+                    padding: 30px 60px;
+                    background-color: #FF5188;
+                    margin-bottom: 60px;
+                    p {
+                        color: #fff;
+                        font-size: 18px;
+                        display: inline-block;
+                        margin-right: 10px;
+                    }
+                    .windows-button {
+                        display: inline-block;
+                        height: 25px;
+                        width: 25px;
+                        background-repeat: no-repeat;
+                        background-image: url(../img/windows.png);
+                        float: right;
+                    }
+                    .mac-button {
+                        display: inline-block;
+                        height: 25px;
+                        width: 25px;
+                        background-repeat: no-repeat;
+                        background-image: url(../img/mac.png);
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+    .why-contant {
+        padding-top: 300px;
+        .why-text {
+            h3 {
+                font-size: 30px;
+                margin-bottom: 30px;
+                opacity: 0;
+                span {
+                    font-weight: bold;
+                }
+            }
+            p {
+                opacity: 0;
+            }
+            p.why-fitst_par {
+                font-size: 15px;
+                text-transform: uppercase;
+                color: #67d5b5;
+                font-weight: bold;
+                margin-bottom: 25px;
+            }
+            p.why-2nd_par {
+                font-size: 18px;
+                font-style: italic;
+            }
+            p.why-3rd_par {
+                font-size: 16px;
+                margin-top: 30px;
+                color: #7B7B7B;
+                margin-bottom: 40px;
+            }
+            a {
+                p {
+                    text-align: right;
+                    font-size: 15px;
+                    color: #ef5285;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+.why-img {
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 400px;
+    background-image: url(../img/why-photo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 620px;
+}

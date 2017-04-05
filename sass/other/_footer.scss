@@ -1,0 +1,41 @@
+.foot {
+    flex: 0 0 auto;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    background-color: #1A1F22;
+    //    height: 100%;
+    .foot-top {
+        padding-top: 80px;
+        h1 {
+            font-size: 130px;
+            text-transform: uppercase;
+            color: #1E2226;
+        }
+    }
+    .foot-links {
+        padding-top: 100px;
+        color: #d3d3d3;
+        font-size: 13px;
+        a {
+            color: #fff;
+            p {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    hr {
+        border-color: #3A3F41;
+    }
+    .yls {
+        p {
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+    }
+    .priv {
+        p {
+            font-size: 11px;
+        }
+    }
+}
